@@ -1,0 +1,436 @@
+body{
+	background: #e3f6f5;
+}
+
+*{box-sizing: border-box;}
+
+.topnav {
+  overflow: hidden;
+  background-color: #e9e9e9;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #2196F3;
+  color: white;
+}
+
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  border: none;
+  font-size: 17px;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a, .topnav input[type=text] {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}
+
+.logo-banner{
+	text-align: center;
+	width: auto;
+	height: auto;
+	left: auto;
+}
+
+.header{
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 20px;
+}
+
+.nav-bar{
+	text-align: center;
+}
+
+
+.active{
+	background-color: greenyellow;
+}
+
+.televisions{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	column-gap: 5px;
+	border: 3px solid black;
+}
+
+.product{
+	text-align: center;
+	font-family: cursive;
+	box-sizing: border-box;
+	border: 5px solid black;
+}
+
+.tv1{
+	border-right: 3px solid black;
+}
+
+.tv{
+	text-align: center;
+	font-size: 35px;
+	font-family: cursive;
+	border: 3px solid black;
+}
+.t1v{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 300px;
+}
+
+.lg{
+	text-align: center;
+}
+
+.tv-1{
+	text-align: center;
+	font-size: 20px;
+}
+
+.tv2{
+	border-right: 3px solid black;
+}
+
+.t2v{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 300px;
+}
+
+.tcl{
+	text-align: center;
+}
+
+.tv-2{
+	text-align: center;
+	font-size: 20px;
+}
+
+.t3v{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 300px;
+}
+
+.sony{
+	text-align: center;
+}
+
+.tv-3{
+	text-align: center;
+	font-size: 20px;
+}
+
+.tv4{
+	border-right: 3px solid black;
+	border-top: 3px solid black;
+}
+
+.t4v{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 300px;
+}
+
+.samsung{
+	text-align: center;
+}
+
+.tv-4{
+	text-align: center;
+	font-size: 20px;
+}
+
+.tv5{
+	border-right: 3px solid black;
+	border-top: 3px solid black;
+}
+
+.t5v{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 300px;
+}
+
+.lga2{
+	text-align: center;
+}
+
+.tv-5{
+	text-align: center;
+	font-size: 20px;
+}
+
+
+.tv6{
+	border-top: 3px solid black;
+}
+
+.t6v{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 300px;
+}
+
+.samsung2{
+	text-align: center;
+}
+
+.tv-6{
+	text-align: center;
+	font-size: 20px;
+}
+
+.smartphones{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	column-gap: 5px;
+	border: 3px solid black;
+}
+
+.cellphone{
+	text-align: center;
+	font-size: 35px;
+	font-family: cursive;
+	border: 3px solid black;
+}
+
+.cp1{
+	border-right: 3px solid black;
+}
+
+.c1p{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 20%;
+}
+
+.shark{
+	text-align: center;
+}
+
+.cp-1{
+	text-align: center;
+	font-size: 20px;
+}
+
+.cp2{
+	border-right: 3px solid black;
+}
+
+.c2p{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 20%;
+}
+
+.nubia{
+	text-align: center;
+}
+
+.cp-2{
+	text-align: center;
+	font-size: 20px;
+}
+
+.c3p{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 20%;
+}
+
+.rog{
+	text-align: center;
+}
+
+.cp-3{
+	text-align: center;
+	font-size: 20px;
+}
+
+.cp4{
+	border-right: 3px solid black;
+	border-top: 3px solid black;
+}
+
+.c4p{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 20%;
+}
+
+.galaxy{
+	text-align: center;
+}
+
+.cp-4{
+	text-align: center;
+	font-size: 20px;
+}
+
+.cp5{
+	border-right: 3px solid black;
+	border-top: 3px solid black;
+}
+
+.c5p{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 20%;
+}
+
+.apple{
+	text-align: center;
+}
+
+.cp-5{
+	text-align: center;
+	font-size: 20px;
+}
+
+.cp6{
+	border-top: 3px solid black;
+}
+
+.c6p{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%;
+}
+
+.fold{
+	text-align: center;
+}
+
+.cp-6{
+	text-align: center;
+	font-size: 20px;
+}
+
+.location{
+	width: auto;
+	height: auto;
+}
+
+.info{
+	text-align: center;
+	font-size: 20px;
+	font-family: cursive;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text1], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container2 {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.container2 {
+  border: 2px solid #ccc;
+  background-color: #eee;
+  border-radius: 5px;
+  padding: 16px;
+  margin: 16px 0;
+}
+
+/* Clear floats after containers */
+.container2::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Float images inside the container to the left. Add a right margin, and style the image as a circle */
+.container2 img {
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+/* Increase the font-size of a span element */
+.container2 span {
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+/* Add media queries for responsiveness. This will center both the text and the image inside the container */
+@media (max-width: 500px) {
+  .container2 {
+    text-align: center;
+  }
+
+  .container2 img {
+    margin: auto;
+    float: none;
+    display: block;
+  }
+}
